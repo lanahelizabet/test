@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Подключаем библиотеки</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a data-scroll href="#map">Карта</a>
+            </li>
+            <li>
+              <a data-scroll href="#gallery">Галерея</a>
+            </li>
+            <li>
+              <a data-scroll href="#bootstrap">Bootstrap</a>
+            </li>
+            <li>
+              <a data-scroll href="#parallax">Parallax</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <section id="map">
+        <h2>Карта</h2>
+       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aad71e4a7b6c893d69d4ebefc188f1aae8611370246438745d3f11a0eda92b252&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+      </section>
+      <section id="gallery">
+        <h2>Галерея</h2>
+        <div class="gallery owl-carousel">
+          <div style="background-image: url(images/1.jpg)" class="item"></div>
+          <div style="background-image: url(images/2.jpg)" class="item"></div>
+          <div style="background-image: url(images/3.jpg)" class="item"></div>
+          <div style="background-image: url(images/4.jpg)" class="item"></div>
+          <div style="background-image: url(images/5.jpg)" class="item"></div>
+        </div>
+      </section>
+      <section id="bootstrap">
+        <h2>Bootstrap</h2>
+      </section>
+      <section id="parallax">
+        <h2>Parallax</h2>
+      </section>
+    </div>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
